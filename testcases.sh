@@ -27,9 +27,14 @@ TESTCASES=(
   # "NESTED_DIRECTORY" "${TESTDIR}/nested"
   # "NOT_PERMITTED_IN_NESTED" "${TESTDIR}/not-permitted-in-nested"
   "VVV" "${TESTDIR}/varfiles ${TESTDIR}/varfiles ${TESTDIR}/varfiles"
+
   "test1" "${TARGET}/tools/test1"
   "test2" "${TARGET}/tools/test2"
   "test3" "${TARGET}/tools/test3"
   "test1-and-test2" "${TARGET}/tools/test1 ${TARGET}/tools/test2"
+
+  "ETC-VAR-LOG" "/etc /var /log"
+  "DEV" "/dev"
+
   # "LABEL" "PARAM1 PARAM2 ..."
 )
